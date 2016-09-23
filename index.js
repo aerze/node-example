@@ -1,13 +1,11 @@
 
 
+const path = require('path');
 const express = require('express');
 const app = express();
 const port = 8000;
 
-
-app.get('/', (req, res) => {
-  res.send('This is fine.');
-});
+app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.listen(port);
