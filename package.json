@@ -1,0 +1,24 @@
+{
+  "name": "node-example",
+  "version": "1.0.0",
+  "description": "An example of a node|express app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aerze/node-example.git"
+  },
+  "keywords": [
+    "node",
+    "example",
+    "express"
+  ],
+  "author": "Gus Suarez <gus@mythril.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aerze/node-example/issues"
+  },
+  "homepage": "https://github.com/aerze/node-example#readme"
+}
